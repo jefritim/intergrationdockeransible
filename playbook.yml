@@ -1,6 +1,6 @@
 - hosts: server
   vars:
-  - image: jefri/apache-docker-ansible
+  - image: jefri/intergrationdockeransible
   tasks:
     - name: install python-docker di ubuntu
       apt:
